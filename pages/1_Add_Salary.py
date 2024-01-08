@@ -8,7 +8,7 @@ import json
 
 def main():
     st.set_page_config(page_title="PayQuity")
-    
+
     st.markdown("<h1 style='text-align: center;'>PayQuity</h1>", unsafe_allow_html=True)
 
     st.text(" ")
@@ -73,7 +73,7 @@ def main():
     salary = st.number_input(
         "Salary ($)",
         min_value=0,
-        max_value=100000,
+        max_value=10000000000,
         key="salary",
     )
 
