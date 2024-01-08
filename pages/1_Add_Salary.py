@@ -7,6 +7,8 @@ import json
 
 
 def main():
+    st.set_page_config(page_title="PayQuity")
+    
     st.markdown("<h1 style='text-align: center;'>PayQuity</h1>", unsafe_allow_html=True)
 
     st.text(" ")
